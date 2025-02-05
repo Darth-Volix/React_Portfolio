@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navigation = () => {
+function Navigation() {
     return (
         <nav id='navigation-bar'>
            <h1 id="portfolio_owner_title">Nicholas Wilkins</h1>

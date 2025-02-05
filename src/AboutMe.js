@@ -1,10 +1,11 @@
 import React from 'react';
 import AboutMeGallery from './AboutMeGallery';
 
-const AboutMe = () => {
+function AboutMe() {
     return (
         <div>
             <h1>About Me</h1>
+            <img src=''></img>
             <p>
                 Hello! I'm Nicholas Wilkins. Born and bred in the heart of Salt Lake City, Utah, I had the unique experience of growing up as the third of eight siblings. My journey has since led me to Rexburg, Idaho, where my wife and I have called home for nearly four wonderful years.
 

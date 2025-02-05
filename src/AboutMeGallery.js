@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AboutMeGallery = () => {
+function AboutMeGallery() {
   const [selectedText, setSelectedText] = useState(null);
 
   const texts = [

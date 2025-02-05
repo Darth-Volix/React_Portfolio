@@ -8,7 +8,7 @@ const images = [
   "https://via.placeholder.com/600x400/FFA133/FFFFFF?text=Image+5",
 ];
 
-const ProjectGallery = () => {
+function ProjectGallery() {
   const [selectedProject, setSelectedProject] = useState(images[0]);
 
   const nextImage = () => {

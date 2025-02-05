@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectGallery from './ProjectGallery';
 
-const Projects = () => {
+function Projects() {
     return (
         <div>
             <h1>Projects</h1>
