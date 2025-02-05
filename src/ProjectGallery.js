@@ -11,13 +11,13 @@ const images = [
 function ProjectGallery() {
   const [selectedProject, setSelectedProject] = useState(images[0]);
 
-  const nextImage = () => {
+  function nextImage() {
     const currentIndex = images.indexOf(selectedProject);
     const nextIndex = (currentIndex + 1) % images.length;
     setSelectedProject(images[nextIndex]);
   };
 
-  const prevImage = () => {
+  function prevImage() {
     const currentIndex = images.indexOf(selectedProject);
     const prevIndex = (currentIndex - 1 + images.length) % images.length;
     setSelectedProject(images[prevIndex]);

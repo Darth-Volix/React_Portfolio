@@ -14,6 +14,6 @@ function App() {
       <Projects />
     </main>
   );
-}
+};
 
 export default App;

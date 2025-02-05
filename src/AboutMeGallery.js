@@ -8,7 +8,7 @@ function AboutMeGallery() {
     { id: 2, title: 'Accomplishments', content: "I take great pride in my hard work and strong work ethic, which have led to a variety of accomplishments—some more impressive than others. Here, I'd like to highlight the ones I'm particularly proud of. At the age of 13, I earned my Eagle Scout and set a new record in my troop for the fastest achievement. My passion for engineering blossomed during high school, where I won the 2018 Utah Technology Student Association competition and had the honor of representing Utah at the national level. More recently, I was awarded a full tuition scholarship from BYU-I, which I've been able to maintain thanks to my dedication to academic excellence. As I continue to grow and achieve, I'll make sure to update this page with my latest accolades." }
   ];
 
-  const handleClick = (text) => {
+  function handleClick(text) {
     setSelectedText(text);
   };
 
