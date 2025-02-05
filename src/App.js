@@ -1,16 +1,18 @@
-import './App.css';
 import React from 'react';
 import Navigation from './Navigation';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <Navigation />
+    <main>
+      <header>
+        <Navigation />
+      </header>
       <AboutMe />
       <Projects />
-    </div>
+    </main>
   );
 }
 
