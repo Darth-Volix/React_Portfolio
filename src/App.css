@@ -28,3 +28,9 @@ body {
     color: white;
     text-decoration: none;
 }
+
+footer {
+    background-image: linear-gradient(to bottom, #004265, #002d4e);
+    padding: 20px;
+    color: white;
+}
