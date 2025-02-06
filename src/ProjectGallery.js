@@ -1,58 +1,41 @@
 import React, { useState } from "react";
+import ChronoPlan from './images/ChronoPlan.png';
+import GlacierSite from './images/glacier_site.png';
+import NoteTaker from './images/typescript_notetaker.png';
 
-const images = [
-  "https://via.placeholder.com/600x400/FF5733/FFFFFF?text=Image+1",
-  "https://via.placeholder.com/600x400/33FF57/FFFFFF?text=Image+2",
-  "https://via.placeholder.com/600x400/3357FF/FFFFFF?text=Image+3",
-  "https://via.placeholder.com/600x400/FF33A1/FFFFFF?text=Image+4",
-  "https://via.placeholder.com/600x400/FFA133/FFFFFF?text=Image+5",
+const projects = [
+  {id: 1, title: 'ChronoPlan', image: ChronoPlan, content: "Chronoplan is a website that allows a user to track and add goals and events to the calendar via local storage. It also uses an API that enables the user to choose which country's holidays they would like to have displayed on their calendar. Everything for this website was written with vanilla HTML/CSS/JavaScript."},
+  {id: 2, title: 'Glacier NPS Copycat Site', image: GlacierSite, content: "To learn how to use APIs and more advanced vanilla JS, I created a website that very closely mirrors the real website for Glacier National Park, even using the official NPS API. Everything for this website was written with vanilla HTML/CSS/JavaScript."},
+  {id: 3, title: 'TypeScript Notes App', image: NoteTaker, content: "This application was one created to help me learn TypeScript. It is completely terminal based and allows a user to create, edit, and organize notes into folders. The principles of OOP were implemented in this program and the code is open to the public on GitHub."}
 ];
 
 function ProjectGallery() {
-  const [selectedProject, setSelectedProject] = useState(images[0]);
+  const [selectedProject, setSelectedProject] = useState(projects[0]);
 
   function nextImage() {
-    const currentIndex = images.indexOf(selectedProject);
-    const nextIndex = (currentIndex + 1) % images.length;
-    setSelectedProject(images[nextIndex]);
+    const currentIndex = projects.indexOf(selectedProject);
+    const nextIndex = (currentIndex + 1) % projects.length;
+    setSelectedProject(projects[nextIndex]);
   };
 
   function prevImage() {
-    const currentIndex = images.indexOf(selectedProject);
-    const prevIndex = (currentIndex - 1 + images.length) % images.length;
-    setSelectedProject(images[prevIndex]);
+    const currentIndex = projects.indexOf(selectedProject);
+    const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
+    setSelectedProject(projects[prevIndex]);
   };
 
   return (
     <div>
+      <button onClick={prevImage}>Previous</button>
+      <button onClick={nextImage}>Next</button>
       <div>
-        <button 
-          onClick={prevImage} 
-        >
-          Previous
-        </button>
-        <img 
-          src={selectedProject} 
-          alt="Gallery" 
-        />
-        <button 
-          onClick={nextImage} 
-        >
-          Next
-        </button>
-      </div>
-      <div>
-        {images.map((img, index) => (
-          <img 
-            key={index} 
-            src={img} 
-            alt={`Thumbnail ${index + 1}`} 
-            onClick={() => setSelectedProject(img)}
-          />
-        ))}
+        <h3>{selectedProject.title}</h3>
+        <img src={selectedProject.image} alt={selectedProject.title} />
+        <p>{selectedProject.content}</p>
       </div>
     </div>
   );
+  
 };
 
 export default ProjectGallery;
