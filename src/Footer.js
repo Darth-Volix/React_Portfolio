@@ -1,5 +1,4 @@
 import React from 'react';
-import githubLogo from './images/github-logo.svg'
 
 function Footer() {
     return (
