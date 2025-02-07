@@ -6,13 +6,13 @@ function Navigation() {
            <h1 id="portfolio_owner_title">Nicholas Wilkins</h1>
            <ul id='nav-links' >
                 <li>
-                <a className='nav-link-button' href="/about">About Me</a>
+                <a className='nav-link-button' href="#about-me-card">About Me</a>
                 </li>
                 <li>
-                <a className='nav-link-button' href="/skills">Skills & Technologies</a>
+                <a className='nav-link-button' href="#skills-section">Skills & Technologies</a>
                 </li>
                 <li>
-                <a className='nav-link-button' href="/projects">Projects</a>
+                <a className='nav-link-button' href="#projects-section">Projects</a>
                 </li>
             </ul>
         </nav>

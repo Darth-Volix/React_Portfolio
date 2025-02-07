@@ -3,7 +3,7 @@ import AboutMeGallery from './AboutMeGallery';
 
 function AboutMe(props) {
     return (
-        <div id='about-me-card' className='content-card'>
+        <section id='about-me-card' className='content-card'>
             <h1>About Me</h1>
             <img id="about-me-photo" src={props.src} alt="personal headshot"></img>
             <p>
@@ -16,7 +16,7 @@ function AboutMe(props) {
                 To learn more about my education and accomplishments, choose one of the options below!
             </p>
             <AboutMeGallery />
-        </div>
+        </section>
     );
 };
 
