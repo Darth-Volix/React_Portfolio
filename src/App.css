@@ -27,6 +27,19 @@ body {
     font-size: 20px;
 }
 
+.nav-link-button {
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-link-button:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
 #portfolio_owner_title {
     text-align: center;
     font-size: 30px;
@@ -43,7 +56,6 @@ body {
 }
 
 #nav-links li a {
-    color: white;
     text-decoration: none;
 }
 
