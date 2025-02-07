@@ -23,6 +23,15 @@ body {
     border-radius: 30px;
 }
 
+#navigation-bar ul li {
+    font-size: 20px;
+}
+
+#portfolio_owner_title {
+    text-align: center;
+    font-size: 30px;
+}
+
 #nav-links {
     display: flex;
     justify-content: space-around;
@@ -152,6 +161,7 @@ body {
 footer {
     background-image: linear-gradient(to bottom, #004265, #002d4e);
     padding: 20px;
+    font-size: 20px;
     color: white;
     display: flex;
     align-items: center;
