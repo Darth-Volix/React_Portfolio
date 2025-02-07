@@ -1,8 +1,16 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background-color: white;
-    color: black;
+    padding: 10px;
+}
+
+#content {
+    margin: 0 auto;
+    background-color: lightgray;
+    max-width: 1500px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 #navigation-bar {
@@ -12,6 +20,7 @@ body {
     align-items: center;
     padding: 20px;
     color: white;
+    border-radius: 30px;
 }
 
 #nav-links {
@@ -147,6 +156,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 30px;
 }
 
 @keyframes increaseSize {

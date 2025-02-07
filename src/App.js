@@ -9,7 +9,7 @@ import HeadShot from './images/personal_headshot.jpg';
 
 function App() {
   return (
-    <main>
+    <main id='content'>
       <Navigation />
       <section id="main-content">
         <AboutMe src={HeadShot} />
