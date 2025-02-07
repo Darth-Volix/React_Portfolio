@@ -25,12 +25,12 @@ function ProjectGallery() {
   };
 
   return (
-    <div>
-      <button onClick={prevImage}>Previous</button>
-      <button onClick={nextImage}>Next</button>
+    <div id="project-gallery">
+      <button className="project-buttons" onClick={prevImage}>Previous</button>
+      <button className="project-buttons" onClick={nextImage}>Next</button>
       <div>
-        <h3>{selectedProject.title}</h3>
-        <img src={selectedProject.image} alt={selectedProject.title} />
+        <h3 id="project-title">{selectedProject.title}</h3>
+        <img id="project-image" src={selectedProject.image} alt={selectedProject.title} />
         <p>{selectedProject.content}</p>
       </div>
     </div>
