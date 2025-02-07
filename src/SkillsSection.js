@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillsSection() {
   return (
-    <section id="skills">
+    <section id="skills" className="content-card">
       <h2>Skills & Technologies</h2>
       <p>
         I have a diverse set of skills and technologies that I have acquired over the years. My expertise ranges from front-end development with HTML, CSS, and JavaScript to back-end development with Node.js and databases. I am proficient in Python and C#, and I have experience working with TypeScript and React for building dynamic web applications. Additionally, I am familiar with tools like Jira for project management, Postman for API testing, and Selenium for automated testing.

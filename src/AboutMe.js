@@ -3,9 +3,9 @@ import AboutMeGallery from './AboutMeGallery';
 
 function AboutMe(props) {
     return (
-        <div>
+        <div id='about-me-card' className='content-card'>
             <h1>About Me</h1>
-            <img src={props.src} alt="personal headshot"></img>
+            <img id="about-me-photo" src={props.src} alt="personal headshot"></img>
             <p>
                 Hello! I'm Nicholas Wilkins. Born and bred in the heart of Salt Lake City, Utah, I had the unique experience of growing up as the third of eight siblings. My journey has since led me to Rexburg, Idaho, where my wife and I have called home for nearly four wonderful years.
 

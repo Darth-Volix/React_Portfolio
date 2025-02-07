@@ -14,15 +14,15 @@ function AboutMeGallery() {
 
   return (
     <div>
-      <div>
+      <div id='about-me-button-box'>
         {texts.map((text) => (
-          <div key={text.id} onClick={() => handleClick(text)}>
+          <div className="about-me-buttons" key={text.id} onClick={() => handleClick(text)}>
             {text.title}
           </div>
         ))}
       </div>
       {selectedText && (
-        <div>
+        <div id='about-me-education-accomplishments'>
           <h2>{selectedText.title}</h2>
           <p>{selectedText.content}</p>
         </div>

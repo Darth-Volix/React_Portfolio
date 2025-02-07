@@ -11,9 +11,11 @@ function App() {
   return (
     <main>
       <Navigation />
-      <AboutMe src={HeadShot}/>
-      <SkillsSection />
-      <Projects />
+      <section id="main-content">
+        <AboutMe src={HeadShot} />
+        <SkillsSection />
+        <Projects />
+      </section>
       <Footer />
     </main>
   );
