@@ -1,12 +1,14 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I am seeking to continue developing my knowledge and skill set in web development by learning React, a JavaScript library developed by Facebook. React enables more streamlined production and maintenance of large-scale websites and web applications. Learning React will further enhance my employability as it is a very popular library and allow me to keep my code more modular and reusable, reducing the time it takes me to develop a website. 
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
+The website that I have developed is a single page portfolio wbesite to show employers and clients my skills and experience. Each section of the website is it's own component, split into separate JavaScript files and then exported to a main App.js file to construct the web page itself. In order to see my application on your own test server, clone the repository and make sure you are in the project's directory. Then make sure you have npm installed. Once that has been completed, run "npm run start" in the terminal. This should automatically start the server and take you to the webpage in your browser. If it does not take you to the page, open your browser and enter the address "http://localhost:3000".
 
-{Describe your purpose for writing this software.}
+I decided to pursue the challenge of learning React because I have only ever used vanilla JavaScript and wanted to learn a popular library or framework. My employer at the time of the creation of this site was also seeking a new Software Engineer with React experience, which is something that I lacked. Tackling this project allows me to show employers that I am familar with React and can use it, while also showing them some of my other projects and skills. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Website Demo Video](http://youtube.link.goes.here)
+
+[Production Deployment of Website (hosted on Netlify)](https://fancy-elf-445453.netlify.app/)
 
 # Web Pages
 
