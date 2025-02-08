@@ -169,12 +169,16 @@ body {
     animation: increaseSize 0.1s forwards;
 }
 
+
 #project-title {
     font-size: 24px;
 }
 
+
 #project-image {
-    height: 200px;
+    height: auto;
+    width: 100%;
+    text-align: center;
 }
 
 footer {
@@ -188,6 +192,11 @@ footer {
     border-radius: 30px;
 }
 
+footer a {
+    font-size: 20px;
+    color: white
+}
+
 @keyframes increaseSize {
     from {
         transform: scale(1);
@@ -198,5 +207,19 @@ footer {
 }
 
 @media (min-width: 700px) {
+    #headshot-intro {
+        flex-direction: row;
+        column-gap: 15px;
+        margin-bottom: 15px;
+    }
 
+    #headshot-intro p {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 850px) {
+    #about-me-photo {
+        height: 500px;
+    }
 }
