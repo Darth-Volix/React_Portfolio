@@ -6,7 +6,7 @@ The website that I have developed is a single page portfolio wbesite to show emp
 
 I decided to pursue the challenge of learning React because I have only ever used vanilla JavaScript and wanted to learn a popular library or framework. My employer at the time of the creation of this site was also seeking a new Software Engineer with React experience, which is something that I lacked. Tackling this project allows me to show employers that I am familar with React and can use it, while also showing them some of my other projects and skills. 
 
-[Website Demo Video](http://youtube.link.goes.here)
+[Website Demo Video](https://youtu.be/crT_c_wCwuY)
 
 [Production Deployment of Website (hosted on Netlify)](https://fancy-elf-445453.netlify.app/)
 
