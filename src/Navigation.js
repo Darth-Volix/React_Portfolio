@@ -6,7 +6,7 @@ function Navigation() {
            <h1 id="portfolio_owner_title">Nicholas Wilkins</h1>
            <ul id='nav-links' >
                 <li>
-                <a className='nav-link-button' href="#about-me-card">About Me</a>
+                <a className='nav-link-button' href="#about-me-card">Who Am I?</a>
                 </li>
                 <li>
                 <a className='nav-link-button' href="#skills-section">Skills & Technologies</a>
